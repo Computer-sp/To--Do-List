@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="td.css">
+    <title>TO-DO List</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Main heading and day night -->
+        <div class="todo-t-day-night">
+            <div class="todo-heading" class="todo-text">TO-DO LIST</div>
+        </div>
+
+        <!-- task name input and add new button -->
+        <div class="task-adder-new-btn-cnt">
+            <div class="task-input-cnt">
+                <input type="text" name="" class="newtaskinput" id="task" placeholder="Add your todo">
+            </div>
+            <div class="new-btn-cnt">
+                <button onclick="addTodo()">+</button>
+            </div>
+        </div>
+
+        <!-- Todo List -->
+        <div class="list-cnt">
+            <div class="all-tasks" id="all-tasks">
+            </div>
+        </div>
+        <script src="td.js"></script>
+</body>
+</html>
